@@ -18,6 +18,6 @@ WORKDIR /opt/techcampus
 
 COPY --from=build /home/gradle/project/build/libs/kakao-1.0.jar .
 
-ENV DATABASE_URL=jdbc:mariadb://mariadb/kakao
+ENV DATABASE_URL=jdbc:mariadb://mariadb/krampoline
 
 CMD ["java", "-jar", "-Dspring.profiles.active=prod", "kakao-1.0.jar"]
