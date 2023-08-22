@@ -24,6 +24,3 @@ logging:
   level:
     '[com.example.kakao]': INFO
     '[org.hibernate.type]': TRACE
-
-file:
-  path: ./images/
